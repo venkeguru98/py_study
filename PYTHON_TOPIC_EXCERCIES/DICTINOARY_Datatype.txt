@@ -1,0 +1,134 @@
+1. Write a program that creates a dictionary representing a person's contact information. 
+The dictionary should include keys for "name", "email", and "phone". 
+Assign values to these keys and then print out the contact information.
+
+person_info = {
+
+    "name" : "venkat,
+    "email": "venkeguru98@gmail.com"
+    "phone": 9865254571
+}
+
+print("information")
+print("NAME :", person_info["name"])
+print("EMAIL :", person_info["email"])
+print("PHONE :", person_info["phone"])
+
+2. Write a program that creates an empty dictionary to store information about a car. 
+Ask the user to input the car's make, model, and year. Store these details in the dictionary 
+and then update the year value to the current year.
+Finally, print the updated dictionary.
+
+car_dict{ }
+
+#getting input from the user
+
+make = input("Enter the make :")
+model = input("Enter the model :")
+year = input("enter the year :")
+
+car_dict["make"] = make
+car_dict["model"] = model
+car_dict["year"] = year
+
+print(car_dict)
+
+current_year = datetime.datetime.now().year
+
+car_dict["year"] = current_year
+print(car_dict)
+
+3.Write a program that creates a dictionary representing a shopping list. 
+The dictionary should have items as keys and quantities as values. 
+Ask the user to input items and quantities until they enter "done" as the item. 
+Then, print out the shopping list in a nicely formatted way.
+
+shopping_list = {}
+
+#getting input from the user 
+
+while True 
+
+    item = input ("Enter the Input or done once over : )
+
+    if item.lower == "done"
+
+   break:
+
+   quantity = input(int("Enter the quantity :"))
+
+print("\nshopping LIST")
+for (item,quantity ) in shopping_list.items():
+    print( f" {item},{quantity}
+    )
+
+Write a program that creates a dictionary representing a person's weekly schedule. 
+Each key in the dictionary should represent a day of the week (e.g., "Monday", "Tuesday") 
+and the value should be a list of tasks for that day. 
+Use a loop to iterate over the dictionary and print out the schedule for each day.
+
+schedule_dict = {
+
+    "Monday : ["task1","task2","task3"]
+    "Tuesday :["task1","task2","task"]
+    "Wednesday" : ["task1","task2,"task3]
+
+}
+
+for day,tasks in schedule_dict.items():
+    print(f"{day}")
+    for task in task :
+       print(f" {task}")
+    print()
+
+
+Write a program that creates a dictionary of words and their corresponding lengths. 
+Ask the user to input a sentence, split it into words, 
+and store each word in the dictionary along with its length. 
+Finally, print out the dictionary.
+
+words_dict = {}
+
+#getting input from the usesr 
+
+sentence = input("Enter the word :")
+
+#splitting the sentence into words 
+
+words = sentence.split()
+
+for word in words
+    word_dict[word] = len(word)
+
+#print the dict 
+
+print("word lengths")
+for word,length in word_dict.items():
+    print(f"{word},{length})
+
+
+
+Write a program that takes a sentence as input and counts the frequency of each word in the sentence. 
+The program should store the word frequencies in a dictionary where the words are the keys and 
+the frequencies are the values. Finally, print out the dictionary.
+
+
+word_frequency ={}
+
+sentence = input("Enter the Sentence :")
+
+words = sentence.split()
+
+for word in words:
+    if word in word_frequency:
+       word_frequency[word] += 1
+    else 
+       word_freq[word] =1  
+
+#print out the dict 
+ for word,freq in word_frequency.items()
+     print(f"{word}:{frequency}")
+     print()
+
+
+

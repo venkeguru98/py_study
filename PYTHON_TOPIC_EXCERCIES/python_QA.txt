@@ -1,0 +1,35 @@
+#Python Documents 
+
+
+#PYTHON INTRERVIEW BASICS 
+
+1.What is Python used for?
+2.How does Python compare to other programming languages, such as Java or C++?
+3.What is the difference between Python 2 and Python 3?
+4.What are the key features of Python?
+5.How do you declare variables in Python?
+6.What are the data types in Python, and how do you convert between them?
+7.What are lists, tuples, and dictionaries in Python, and how are they different?
+8.What are functions in Python, and how do you create and call them?
+9.How do you handle exceptions in Python?
+10.What is object-oriented programming, and how is it supported in Python?
+11.What are modules and packages in Python, and how do you use them?
+12.How do you read and write files in Python?
+13.What is the "import" statement used for in Python?
+14.What is the difference between the "append" and "extend" methods of a list in Python?
+15.How do you sort a list in Python?
+16.What is a generator in Python, and how does it differ from a list?
+17.What are some popular libraries in Python, and what are they used for?
+
+#SIMPLE STB PROJECTS USING PYTHON 
+
+1.Remote Control Simulation: Create a simple program that simulates the functionality of a remote control for an STB. This can be done using Python's GUI libraries, such as Tkinter or PyQt.
+
+2.Channel Scanner: Develop a program that can scan for available TV channels and store the channel information in a database.
+
+3.Electronic Program Guide (EPG): Create an EPG that displays a schedule of upcoming TV shows and movies. The program can retrieve the schedule information from a database or an online source.
+
+4.Media Player: Build a simple media player that can play video and audio files stored on the STB. The program can use Python's built-in libraries, such as vlc or pygame, to handle the media playback.
+
+5.Channel Zapper: Create a program that can change TV channels by simulating the button presses of a remote control. The program can use Python's serial library to communicate with the STB.
+

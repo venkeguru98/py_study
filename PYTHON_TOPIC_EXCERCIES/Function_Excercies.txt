@@ -1,0 +1,23 @@
+1.Write a function named "sum_of_two_numbers" that takes two numbers as arguments 
+and returns the sum of those two numbers.
+
+2.Write a function named "calculate_average" that takes a list of numbers as an argument 
+and returns the average of those numbers.
+
+3.Write a function named "max_of_three_numbers" that takes three numbers as arguments 
+and returns the largest of those three numbers.
+
+4.Write a function named "is_even" that takes a number as an argument and returns True if 
+the number is even, or False if the number is odd.
+
+5.Write a function named "concatenate_strings" that takes a list of strings as an argument 
+and returns a single string that is the concatenation of all the strings in the list.
+
+6.Write a function named "sort_list" that takes a list of numbers as an argument 
+and returns the list sorted in ascending order.
+
+7.Write a function named "squared_numbers" that takes a list of numbers as an argument 
+and returns a list containing the squares of each number in the original list.
+
+8.Write a function named "palindrome" that takes a string as an argument 
+and returns True if the string is a palindrome (i.e., the string reads the same forwards and backwards), or False if the string is not a palindrome.

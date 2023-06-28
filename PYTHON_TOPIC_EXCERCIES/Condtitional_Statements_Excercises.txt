@@ -1,0 +1,10 @@
+Write a program that checks whether a given number is even or odd.
+Write a program that takes a user's age as input and tells them whether they are a child, a teenager, or an adult.
+Write a program that takes two numbers as input and tells the user which one is larger.
+Write a program that checks whether a given year is a leap year or not.
+Write a program that takes a letter as input and tells the user whether it is a vowel or a consonant.
+Write a program that takes a string as input and tells the user whether it is a palindrome or not.
+Write a program that takes a grade as input and tells the user whether it is an A, B, C, D, or F.
+Write a program that takes a number as input and tells the user whether it is positive, negative, or zero.
+Write a program that takes three numbers as input and tells the user whether they form an equilateral, isosceles, or scalene triangle.
+Write a program that takes a number as input and tells the user whether it is prime or not.

@@ -1,0 +1,86 @@
+1. Write a Python program to sum all the items in a list.
+
+list = [ 10,20,30]
+sumlist = sum(lists)
+print(sumlist) 
+
+output = 60
+
+
+2. Write a Python program to find the largest number in a list.
+
+logic 1: First sort the value of the list --> it will sort from the order ascnedning to descedning 
+        Then using index acess the list largest value 
+
+list = [20,10,40,10,50,5]
+sortthelist = sort.(list)
+print(sortthelist)
+print(sortthelist[6])
+
+Logic 2 : use the keyword max for finding the maximum of the values in the list
+
+list = [20,10,40,10,50,5]
+maxvalue = max(list)
+print(maxvalue)
+
+3. Write a Python program to find the second largest number in a list.
+
+logic : first sorrt the value in the givne list and access the value by indexing the value from the back 
+
+list = [20,10,89,10]
+sortthelist=sort(list)
+print(sortthelist[-2])
+
+4.Write a Python program to remove duplicates from a list
+
+logic : convert the list value to the set by usning the set key word 
+
+list = [10,5,10,5]
+newlist = set(list)
+print(newlist)
+
+5.Write a Python program to find the common elements between two lists.
+
+logic : covert the list to the set using the set keyword and compare the two set value with the AND operator 
+
+list1= [10,20,30]
+list2= [30,40,50]
+
+newcommomlist = (set(list1) & set(list2))
+print(newcommomlist)
+
+6. Write a Python program to concatenate two lists.
+
+logic : to concentate two of the lists use the addition operator between the lists 
+
+list1 = [10,20,30]
+list2 = [40,50,60]
+
+newlist = list1 + list2
+print(newlist)
+
+7. Write a Python program to check if a list is empty or not.
+
+Logic : use the if condition for checking the wheather the list has value using the if not 
+
+list = [10,20,30]
+if not in list:
+   print(value not in list )
+else:
+   print(value there in list )
+
+8. Write a Python program to reverse a list.
+
+Logic 1: use the keyword to reverse the given value of the list 
+
+list = [10,20,30,40,50]
+list.reverse()
+print(list)
+
+logic 2: indexing the value by giving the step as -1 
+
+list = [10,20,30,40,50]
+list[::-1]
+print(list)
+
+logic 3 : list comphrension ( need to learn )

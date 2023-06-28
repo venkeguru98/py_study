@@ -1,0 +1,33 @@
+and - used to combine two logical expressions and return True only if both expressions are true
+or - used to combine two logical expressions and return True if at least one of the expressions is true
+not - used to negate a logical expression (i.e., return True if the expression is false, and vice versa)
+if, elif, else - used for conditional branching (i.e., executing different code depending on the result of a logical expression)
+for - used for looping over a sequence of values (e.g., a list or tuple)
+while - used for looping while a certain condition is true
+in - used to check if a value is in a sequence (e.g., x in mylist)
+is - used to check if two variables refer to the same object (e.g., x is None)
+break - used to exit a loop early
+continue - used to skip the rest of the current iteration of a loop and continue with the next iteration
+def - used to define a function
+return - used to return a value from a function
+class - used to define a class
+try, except, finally - used for error handling (i.e., executing different code depending on whether an error occurs or not)
+assert - used for debugging, to ensure that a certain condition is true
+global - used inside a function to declare a variable as global (i.e., accessible outside of the function)
+nonlocal - used inside a nested function to declare a variable as nonlocal (i.e., accessible in the enclosing function)
+lambda - used to define an anonymous function (i.e., a function with no name)
+yield - used in a function to return a generator object (i.e., an object that generates a sequence of values on demand)
+import - used to import a module (i.e., a file containing Python code) into your program
+from - used with import to import specific functions or variables from a module
+as - used with import or from to give a module or function a different name (e.g., import math as m)
+with - used with file objects or other resources to ensure that they are properly closed or released after use
+del - used to delete a variable, object, or element from a list or dictionary
+pass - used as a placeholder when you need a statement but don't want to do anything (e.g., inside an empty function or loop)
+exec - used to execute a string as Python code
+eval - used to evaluate a string as a Python expression
+async - used to define a coroutine (i.e., a function that can be suspended and resumed later)
+await - used inside a coroutine to wait for a coroutine to complete
+del - used to delete a variable, object, or element from a list or dictionary
+break - used to exit a loop early
+continue - used to skip the rest of the current iteration of a loop and continue with the next iteration
+pass - used as a placeholder when you need a statement but don't want to do anything (e.g., inside an empty function or loop)

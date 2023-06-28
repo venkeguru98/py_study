@@ -1,0 +1,38 @@
+print() - used to print output to the console (built into Python, but can also be used in user-defined functions)
+len() - used to get the length of a sequence (e.g., a list or string)
+sum() - used to get the sum of a sequence of numbers
+max() - used to get the maximum value in a sequence
+min() - used to get the minimum value in a sequence
+sorted() - used to sort a sequence (e.g., a list) in ascending order
+reversed() - used to reverse the order of a sequence (e.g., a list)
+enumerate() - used to iterate over a sequence (e.g., a list) and return tuples of the form (index, value)
+zip() - used to combine two or more sequences into tuples (e.g., zip(list1, list2) returns a sequence of tuples of the form (list1[i], list2[i]))
+range() - used to create a sequence of numbers (e.g., range(10) returns a sequence of integers from 0 to 9)
+any() - used to check if any element in a sequence is true (e.g., any([True, False, False]) returns True)
+all() - used to check if all elements in a sequence are true (e.g., all([True, True, False]) returns False)
+filter() - used to filter elements from a sequence (e.g., filter(lambda x: x > 0, mylist) returns a sequence of elements from mylist that are greater than 0)
+map() - used to apply a function to each element of a sequence (e.g., map(lambda x: x**2, mylist) returns a sequence of the squares of the elements in mylist)
+reduce() - used to apply a function to a sequence cumulatively (e.g., reduce(lambda x, y: x + y, mylist) returns the sum of the elements in mylist)
+abs() - used to get the absolute value of a number
+pow() - used to raise a number to a power (e.g., pow(2, 3) returns 8)
+round() - used to round a number to a specified number of decimal places (e.g., round(3.14159, 2) returns 3.14)
+type() - used to get the type of an object (e.g., type("hello") returns <class 'str'>)
+isinstance() - used to check if an object is an instance of a specified class (e.g., isinstance("hello", str) returns True)
+callable() - used to check if an object is callable (i.e., if it can be called as a function) (e.g., callable(print) returns True)
+dir() - used to get a list of the attributes and methods of an object (e.g., dir("hello") returns ['__add__', '__class__', '__contains__', ...])
+help() - used to get help on a Python object (e.g., help(str) prints information on the str class)
+id() - used to get the unique identifier of an object (e.g., id("hello") returns a unique integer value)
+input() - used to get input from the user (e.g., name = input("What is your name? ") prompts the user to enter their name and stores it in the name variable)
+open() - used to open a file (e.g., file = open("example.txt", "r") opens the file example.txt for reading and stores it in the file variable)
+chr() - used to get the character corresponding to an ASCII code (e.g., chr(65) returns 'A')
+ord() - used to get the ASCII code corresponding to a character (e.g., ord('A') returns 65)
+hex() - used to convert an integer to a hexadecimal string (e.g., hex(255) returns '0xff')
+bin() - used to convert an integer to a binary string (e.g., bin(255) returns '0b11111111')
+oct() - used to convert an integer to an octal string (e.g., oct(255) returns '0o377')
+format() - used to format a string (e.g., "Hello, {}!".format(name) replaces {} with the value of the name variable in the string "Hello, {}!")
+zip_longest() - used to combine two or more sequences into tuples of the longest length 
+(e.g., zip_longest(list1, list2, fillvalue=0) returns a sequence of tuples of the form (list1[i], list2[i]), with missing values filled in with 0)
+getattr() - used to get the value of an attribute of an object (e.g., getattr(obj, "attr_name") returns the value of the attribute attr_name of the object obj)
+setattr() - used to set the value of an attribute of an object (e.g., setattr(obj, "attr_name", value) sets the value of the attribute attr_name of the object obj to value)
+delattr() - used to delete an attribute of an object (e.g., delattr(obj, "attr_name") deletes the attribute attr_name of the object obj)
+set()- used to creare the new set based on list

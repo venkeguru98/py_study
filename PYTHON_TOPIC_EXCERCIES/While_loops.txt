@@ -1,0 +1,26 @@
+Write aprogram that prompst the user to enter a password . the Program shoud continue to ask
+for passwords until it gets one correct.if the Entered password is incorrect , the program should 
+display an error message 
+
+
+password = " venkatguru"
+input_password = " "
+
+while input_password != password :
+      input_password = input("Enter the Password :")
+
+      if input_password == password:
+         print("Acess Granted")
+         else:
+         print("Acess Denied ")
+
+2. Write a program that prints all the even numbers between 1 and 20 using a while loop 
+
+
+n = 2 
+
+while n <= 20 :
+    n += 2 
+    print(n)
+
+

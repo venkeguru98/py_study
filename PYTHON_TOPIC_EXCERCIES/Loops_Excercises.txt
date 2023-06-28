@@ -1,0 +1,121 @@
+1.Write a program that prints out the numbers from 1 to 10 using a for loop.
+
+OUTPUT : [1,2,3,4,5,6,7,8,9,10]
+logic : decalare a ist with the  value and in the loop ilerate the values and print the list 
+
+mylist = [1,2,3,4,5,6,7,8,9,10]   #using for loop
+for i in range(len(mylist)):
+     print(mylist[i])
+
+2.Write a program that prints out the even numbers from 1 to 20 using a for loop.
+
+EX 1 : mylist = [1,2,3,4,5,6,7,8,9,10]
+
+for i in range (len(mylist)) 
+    if i % 2 == 0:
+        print [f"{i} EVEN "]
+    else:
+        print (f"{i} ODD")
+
+EX 2 : Logic using the range of value giving 1 to 20 
+
+for i in range (1,20):
+    if i % 2 == 0:
+       print(i)
+
+3.Write a program that prints out the odd numbers from 1 to 20 using a while loop.
+
+Logic : asiing the ileratro value from 1 to 20 and condition for odd and if satisfy the condition print the nums 
+
+i = 1
+while i < = 20:
+   if i % 2 != 0:
+   print(i)
+i=i+1
+
+4.Write a program that takes a list of integers and prints out the sum of all the numbers using a for loop.
+
+EX 1 : LOGIC : adding the values in the list using SUM Keyword 
+
+list = [ 10,20,30,40,50]
+sum of list = list.sum()
+print(sum of list)
+
+EX 2 : USing for loop 
+
+LOGIC : initizalie a varible sum = 0 
+
+list = [1,1,1,1,]
+sum = 0 
+for i in list :
+    sum = sum + i 
+print("the value of the sum",sum)
+
+
+5.Write a program that takes a list of strings and prints out each string in reverse order using a for loop.
+
+EX 1 : Reverse the order of the string in the list 
+list = ["venke","Guru","venkat]
+print(list[::-1])
+
+EX 2 : Reverse the each string using for loop 
+
+list = ["venke","Guru","venkat]
+for i in list :
+    print(list[::-1])
+
+
+6.Write a program that takes a string and prints out the number of vowels in the string using a for loop.
+
+list = [ "venke","guru"]
+
+vowels = ["a","e","i","o","u"]
+
+for i in list :
+    if i in vowels:
+       print("the value of the list ",i)
+
+
+7.Write a program that takes a list of integers and prints out only the numbers that are divisible by 3 using a for loop.
+
+
+list = [10,20,30]
+
+for i in list :
+    if i % 3 == 0:
+    print(f"{i} divisbile by 3)
+
+
+Write a program that takes a list of numbers and prints out the largest number using a for loop.
+
+list = [ 10,20,30,40,50]
+
+maximumvaluae = list[0]
+
+for i in list :
+    if i > maximum value 
+    maxiumum valuae = i 
+print("the maximum value is",maximumvalue)
+
+9.Write a program that takes a list of strings and prints out only the strings that start with a vowel using a for loop.
+
+LOGIC : firstly iniliaze the value of the list and intlizae a varibale vowels and check for each word in ths 
+list if it starts with a vowel and print the word 
+
+list = ["venke","amma","Guru"]
+
+vowel = ['a','e','i','o','u']
+
+for i in list :
+    if i[0].lower() in vowel:
+    print("the words in vowel",i) 
+
+
+Write a program that takes a string and prints out each character of the string in a separate line using a for loop.
+
+value = "venkat"
+
+for i in value:
+ print(i)
+
+ ------------------------------

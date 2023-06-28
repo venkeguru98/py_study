@@ -1,0 +1,80 @@
+Create a tuple containing the names of your favorite fruits. Print the tuple.
+
+fruit = ("apple","Bannana","apple")
+print(fruit)
+
+Create a tuple containing the first 10 positive integers. Print the tuple.
+
+integers = (1,2,3,4,5,6,7,8,9)
+print(integers)
+
+Create a tuple containing the weekdays in order (Monday, Tuesday, Wednesday, etc.). Print the tuple.
+
+weekdays = ("mon","Tue","wed","thu","fri")
+print(weekdays)
+
+Create a tuple containing the names of 5 countries. Print the length of the tuple.
+
+countries = ("india","nepal","china","srilanka")
+print(len(countries))
+
+Create two tuples containing the x and y coordinates of two points. Write a function that takes these two tuples as arguments and  
+calculates the distance between the two points using the distance formula: sqrt((x2 - x1)^2 + (y2 - y1)^2).
+
+import math
+
+point1 = (1,2)
+point2 = (3,4)
+
+def calculatedistance(point1,point2):
+    x1,y1 = point1
+    x2,y2 = point2
+
+    return math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+#calling the function 
+
+result = calculatedistance(point1,point2)
+print(f"the Result of the following {point1} and {point2} is {result:}")
+
+Create a tuple containing the temperatures (in Celsius) of a particular city for each day of a week. Write a program to convert these temperatures to Fahrenheit and store them in a new tuple. Print both tuples.
+
+
+celsius_deg = (20,23,30)
+
+def cel_to_feh(temp):
+ 
+ return (temp * 9/5) + 32
+
+feh_deg = tuple(cel_to_deg(temp) for temp in celsius_deg)
+
+print(celsius_deg)
+print(feh_deg)
+
+Create a tuple containing the names of your favorite books. Write a program to sort the tuple in alphabetical order and print the sorted list.
+booktuple = ("book3","book2","book1")
+booktuple.sorted()
+print(booktuple)
+
+Create a tuple containing the names of your favorite movies. Write a program to iterate over the tuple and print each movie name on a new line.
+
+favmovie = ("Movie1","movie2","mpovie3")
+for movie in range(len(favmovie)):
+    print(favmovie[movie])
+
+Create a tuple containing the names and ages of five people. Write a program to print the name and age of the oldest person in the tuple.
+
+oldpeople = (("venke",30),("guru",31),("venkat",32))
+oldpeople1 =max(oldpeople)
+print(oldpeople1)
+
+Create a tuple containing the names and salaries of five employees. Write a program to calculate the average salary of the employees and print it.
+
+
+Create a tuple containing the names of the months of the year. Write a program to print the months that start with the letter "J".
+Create a tuple containing the names of the colors of the rainbow in order. Write a program to print the colors in reverse order.
+Create a tuple containing the heights (in centimeters) of six people. Write a program to calculate the average height and print it.
+Create a tuple containing the names of five cities. Write a program to print the name of the city with the longest name.
+
+Create two tuples containing the x and y coordinates of two vectors. Write a program to calculate the dot product of the two vectors.
+Create a tuple containing the names and ages of ten people. Write a program to sort the tuple by age in ascending order and print the sorted list.

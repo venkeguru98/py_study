@@ -1,0 +1,55 @@
+1. Set Intersection: Write a function that takes two sets as input and returns the 
+intersection of the two sets (i.e., the elements that are common to both sets).
+
+Ans : set1 = {"venke",1,2}
+      set2 = {"venke",2,3,4}
+      set1 3 = set1.intersection(set2)
+      print(set3) 
+
+Set Union: Write a function that takes two sets as input and returns the union of the two sets (i.e., all unique elements from both sets).
+
+      set1 = {"venke","guru",1,2,}
+      set2 = {"venke",2,3,4,"guru"}
+      set3 = set1.union(set2)
+      print(set3)
+
+
+Set Difference: Write a function that takes two sets as input and returns the set difference (i.e., the elements that are in the first set but not in the second set).
+
+def set_diff (set1,set2):
+    return set1 - set2 
+
+set1 = {1,3,4}
+set2 = {1,2,4}
+
+set3 = set_diff (set1,set2)
+print(set3)
+
+
+Set Symmetric Difference: Write a function that takes two sets as input and returns the symmetric difference (i.e., the elements that are in either of the sets but not in both).
+
+symmetric_difference which returns the value either present in any of the sets but not both the sets 
+
+set 1 = {1,2,3,4,6}
+set 2 = {1,2,3,4,5}
+
+set3 = set1.symmetric_difference(set2)
+print(set3)
+
+Set Subset: Write a function that takes two sets as input and determines whether the first set is a subset of the second set.
+
+set1 = {1,2,3,4,6} ---> subsets returns True or False value 
+set2 = {1,2,34,5,6}
+
+set1.subset(set2)
+print(set1)
+
+Set Superset: Write a function that takes two sets as input and determines whether the first set is a superset of the second set.
+
+Set Cardinality: Write a function that takes a set as input and returns the number of elements in the set (i.e., the cardinality of the set).
+
+Set Equality: Write a function that takes two sets as input and determines whether the sets are equal (i.e., they have the same elements).
+
+Set Complement: Write a function that takes two sets as input and returns the complement of the second set with respect to the first set (i.e., the elements that are in the first set but not in the second set).
+
+Set Power Set: Write a function that takes a set as input and returns the power set of the set (i.e., the set of all possible subsets).
