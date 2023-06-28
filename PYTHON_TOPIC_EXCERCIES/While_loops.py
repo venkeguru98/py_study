@@ -1,5 +1,5 @@
 
-#! WHile Loops are the loops which will be executed untill the  condtion is False
+#! WHile Loops are the loops that will be executed untill the  condtion is False
 
 #Synatax :
 
@@ -34,7 +34,7 @@ while i < 6:
        continue
     print(i)
     
-#! The else statemnt in while loop 
+#! The else statement in the while loop 
 
 i = 1 
 while 1 <6 :
