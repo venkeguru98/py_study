@@ -60,6 +60,9 @@ print(calculate_average(given_numbers))
 print("enter the number")
 
 
+#! Functions can be made in arguments 
+
+
 
     
     
