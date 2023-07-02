@@ -57,6 +57,12 @@ for names in name :
 for i in range (1,6):
     print(i)
 
+#ELSE in For Loops and Else is executed once the for Blocks are executed and else block gets executed 
+
+for i in range (1,6):
+    print(i)
+else:
+    print("completed ")
 
 # NESTED FOR LOOP 
 
