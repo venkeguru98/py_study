@@ -141,6 +141,76 @@ print(result)
 
 #if the number of keys words are unknown ** are used 
 
+def argkeyword_function (**value):
+    print("the middle name is dispalyed as",value["middlename"])
+    
+argkeyword_function(firstname ="venkat",lastname = "sudhakar",middlename ="guru")
+
+#4 
+
+def print_the_value (**values):
+    for key,value in values:
+        value_to_print =print(f"{key} :{values}")
+        return value_to_print
+        
+    
+    result = print_the_value(name="venke",age = 32,class_std ="fifth")
+
+
+
+#DEFAULT PARAMTER VALUE 
+
+# if you call the function without any arguments it will take the assinged argument 
+
+
+def defparameter ( name = "venke"):
+    
+    print(name)
+
+defparameter("venkat")
+defparameter("venkee")
+defparameter("venke") 
+
+
+#2 - if the paramter is not passed 
+
+def aname(name,message ="hi"):
+    print(f"{name},{message}")
+    
+aname("venkat")
+aname("venke","hi1")s
+
+
+#Return value ---> to return a vlue in a function use RETURN STATEMENT 
+
+def calculatesqaure (x):
+    return x*x
+
+calculatesqaure(5)
+
+
+#THEPASS Statekment the Funcrion block cannot be empy and so 
+#Pass statemnent is ued and it do not through any error 
+# A FUNCTION CALLING ITSELF IS KNOW AS RECURSVE FUNCION 
+
+# TYPES - BASE CASE amd RECURSIVE BASE 
+
+#base case---> Terminating from  recursive
+#recursive case --->calling itself in the function  
+
+
+#example Factorial of a number 
+
+def factorail(n):
+    if n ==0 or n ==1:
+        return 1 
+    else:
+        return n * factorail(n-1)
+    
+num = 5 
+result = factorail(num)
+print(f"The factorail of {num} is {result}")
+        
 
 
 
